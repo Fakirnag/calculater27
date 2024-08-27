@@ -21,14 +21,16 @@ function clearDisplay(){
 // function to calculate the value
 function calculate(){
     // use try cathe method for catch any typr of error
-    try{
-        display.value = eval(display.value);
-    }
-    catch{
+    // try{
+    //     display.value = eval(display.value);
+    // }
+    // catch{
 
-    }
+    // }
 
-    display.value = 'error';
+    // display.value = 'error';
+
+           display.value = eval(display.value);
 }
 
 
